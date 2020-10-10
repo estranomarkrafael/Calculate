@@ -1,20 +1,33 @@
-#include <iostream>
+# include <iostream>
 using namespace std;
-
-int main () {
- 	int x,y;
- 	int sum,diff,product,qoutient;
- 	cout<<"Enter 1st number: ";
- 	cin>>x;
- 	cout<<"Enter 2nd number: ";
- 	cin>>y;
- 	cout<<endl;
- 	sum = x+y;
- 	diff = x-y;
- 	product = x*y;
- 	qoutient = x/y;
- 	cout<<"The Sum of 1st number & 2nd number is -> "<<sum<<endl;
- 	cout<<"The Difference of 1st number & 2nd number is -> "<<diff<<endl;
- 	cout<<"The Product of 1st number & 2nd number is -> "<<product<<endl;
- 	cout<<"The Qoutient of 1st number & 2nd number is -> "<<qoutient<<endl;
+int main()
+{
+    char op;
+    float num1, num2;
+    cout<<"Enter First Number:";
+    cin>>num1;
+    cout << "Enter operator either + or - or * or /: ";
+    cin >> op;
+    cout << "Enter second number: ";
+    cin>> num2;
+    switch(op)
+    {
+        case '+':
+            cout << num1+num2;
+            break;
+        case '-':
+            cout << num1-num2;
+            break;
+        case '*':
+            cout << num1*num2;
+            break;
+        case '/':
+            cout << num1/num2;
+            break;
+        default:
+            // If the operator is other than +, -, * or /, error message is shown
+            cout << "Error! operator is not correct";
+            break;
+    }
+    return 0;
 }
