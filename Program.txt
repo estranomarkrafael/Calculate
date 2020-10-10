@@ -17,4 +17,4 @@ int main () {
  	cout<<"The Difference of 1st number & 2nd number is -> "<<diff<<endl;
  	cout<<"The Product of 1st number & 2nd number is -> "<<product<<endl;
  	cout<<"The Qoutient of 1st number & 2nd number is -> "<<qoutient<<endl;
-  }
+}
