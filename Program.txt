@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+ 	int x,y;
+ 	int sum,diff,product,qoutient;
+ 	cout<<"Enter 1st number: ";
+ 	cin>>x;
+ 	cout<<"Enter 2nd number: ";
+ 	cin>>y;
+ 	cout<<endl;
+ 	sum = x+y;
+ 	diff = x-y;
+ 	product = x*y;
+ 	qoutient = x/y;
+ 	cout<<"The Sum of 1st number & 2nd number is -> "<<sum<<endl;
+ 	cout<<"The Difference of 1st number & 2nd number is -> "<<diff<<endl;
+ 	cout<<"The Product of 1st number & 2nd number is -> "<<product<<endl;
+ 	cout<<"The Qoutient of 1st number & 2nd number is -> "<<qoutient<<endl;
+  }
